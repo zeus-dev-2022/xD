@@ -1,0 +1,10 @@
+import datetime
+
+dzisiaj = datetime.date.today().weekday()
+dni_tygodnia = ['Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota','Niedziela']
+#print(f'Dzisiaj jest {dni_tygodnia[dzisiaj]}')
+
+if dzisiaj > 5:
+    print(f' Jest {dni_tygodnia[dzisiaj]} można spać !!!')
+else:
+    print(f'Jest  {dni_tygodnia[dzisiaj]} do pracy !!!')
